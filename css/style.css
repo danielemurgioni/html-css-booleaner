@@ -10,8 +10,22 @@ header{
     background-size: contain;
 }
 
+.container{
+    width: 1030px;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+#list{
+    margin: 20px;
+}
+
 .writer-link{
     color: rgb(10, 159, 159);
+}
+
+.highlight-yellow{
+    background-color: yellow;
 }
 
 .header-logo{
@@ -33,6 +47,7 @@ h1{
 
 h4{
     color: grey;
+    margin-bottom: 10px;
 }
 
 h5{

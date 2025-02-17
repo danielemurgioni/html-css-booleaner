@@ -8,10 +8,12 @@
 </head>
 <body>
     <header> <!-- background-logo -->
-        <img class="header-logo" src="./img/logo.svg" alt="">
+        <div class="container">
+            <img class="header-logo" src="./img/logo.svg" alt="">
+        </div>
     </header>
     <article>
-        <div>    
+        <div class="container">    
             <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
             <h4 class="fixed-width">Scritto da <a class="writer-link">The Booleaner</a> il 10/10/2020</h4>
             <img src="./img/tim-1.jpg" alt="">
@@ -21,13 +23,13 @@
         </div>
     </article>
     <main>
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sapiente ipsa adipisci, placeat debitis aut minus doloremque nihil dolorum magni rem earum exercitationem, nobis dolores quam quos cum similique consequatur culpa.</p>
-            <ol> <!-- lista -->
-                <li>100</li>
-                <li>200</li>
-                <li>300</li>
-            </ol>
+        <div class="container">
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <span class="highlight-yellow">Sapiente ipsa adipisci, placeat debitis aut minus doloremque nihil dolorum magni rem earum exercitationem, nobis</span> dolores quam quos cum similique consequatur culpa. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore, illum quo rerum architecto, quibusdam mollitia voluptates fugiat eos nobis quaerat pariatur praesentium alias iste modi adipisci sequi sit vel? Omnis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas ut ex magni ab? Soluta, ipsum. Quos tenetur esse voluptatem dolor, sunt laborum saepe enim vero fugit? Sed numquam aliquid sunt.</p>
+            <ul id="list"> <!-- lista -->
+                <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit quam nihil pariatur quis veritatis sed laboriosam est dicta, ipsam cupiditate error perspiciatis sapiente repellat tempore maxime aspernatur illo ratione? Assumenda.</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ea earum adipisci iusto maxime velit laudantium, cumque aut hic temporibus architecto. Error non repellendus excepturi distinctio perspiciatis, laudantium esse dicta?</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error ea earum adipisci iusto maxime velit laudantium, cumque aut hic temporibus architecto. Error non repellendus excepturi distinctio perspiciatis, laudantium esse dicta?</li>
+            </ul>
             <table> <!-- tabella -->
                 <thead>
                     <tr>
@@ -54,13 +56,15 @@
                     </tr>
                 </tbody>
             </table>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis totam neque molestias praesentium nam. Earum accusamus provident recusandae ab eos nemo, distinctio temporibus tempora placeat soluta hic aliquam, sed dolore.</p>
+            <p>Lorem ipsum <span class="highlight-yellow">dolor sit amet consectetur adipisicing elit.</span> Perferendis totam neque molestias praesentium nam. Earum accusamus provident recusandae ab eos nemo, distinctio temporibus tempora placeat soluta hic aliquam, sed dolore. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum, quas velit omnis error repudiandae dolore dolor doloribus itaque nihil recusandae incidunt obcaecati officiis iure explicabo distinctio deleniti quibusdam autem! Minima! Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore enim rerum nesciunt voluptatem repellat laudantium perferendis vero corporis asperiores minima, tempora minus velit ratione consectetur aperiam facilis, assumenda quidem odio!</p>
         </div>
     </main>
     <footer>
-        <h4>Potrebbero interessarti</h4>
-        <h5 id="img1" class="bgsize">Imagine1 con scrittura</h5>
-        <h5 id="img2" class="bgsize">Imagine2 con scrittura</h5>
+        <div class="container">
+            <h4>Potrebbero interessarti</h4>
+            <h5 id="img1" class="bgsize">Imagine1 con scrittura</h5>
+            <h5 id="img2" class="bgsize">Imagine2 con scrittura</h5>
+        </div>
     </footer>
 </body>
 </html>
