@@ -10,14 +10,35 @@ header{
     background-size: contain;
 }
 
+h1{
+    font-size: 40px;
+}
+
+h4{
+    color: grey;
+    margin-bottom: 10px;
+}
+
+h5{
+    color: white;
+    margin-bottom: 10px;
+}
+
+table{
+    border-collapse: collapse;
+    text-align: left;
+    border: 2px solid black;
+}
+
+th{
+    background-color: rgb(245, 148, 92);
+    color: white;
+}
+
 .container{
     width: 1030px;
     margin: 0px auto;
     margin-bottom: 10px;
-}
-
-#list{
-    margin: 20px;
 }
 
 .writer-link{
@@ -41,44 +62,11 @@ header{
     font-size:small;
 }
 
-h1{
-    font-size: 40px;
-}
-
-h4{
-    color: grey;
-    margin-bottom: 10px;
-}
-
-h5{
-    color: white;
-    margin-bottom: 10px;
-}
-
-#img1{
-    background-image: url(../img/monitor.jpg);
-}
-
-#img2{
-    background-image: url(../img/graph.jpg);
-}
-
 .bgsize{
     background-size: 15%;
     background-repeat: no-repeat;
     height: 100px;
     padding-left: 10px;
-}
-
-table{
-    border-collapse: collapse;
-    text-align: left;
-    border: 2px solid black;
-}
-
-th{
-    background-color: rgb(245, 148, 92);
-    color: white;
 }
 
 .row-2{
@@ -89,6 +77,14 @@ th{
     background-color:red ;
 }
 
+.wider{
+    width: 30%;
+}
+
+#list{
+    margin: 20px;
+}
+
 #bg-color{
     background-color: purple;
 }
@@ -97,6 +93,10 @@ th{
     margin-top: 20px;
 }
 
-.wider{
-    width: 30%;
+#img1{
+    background-image: url(../img/monitor.jpg);
+}
+
+#img2{
+    background-image: url(../img/graph.jpg);
 }
