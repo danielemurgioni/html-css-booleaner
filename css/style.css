@@ -10,6 +10,11 @@ header{
     background-size: contain;
 }
 
+.header-logo{
+    width: 20%;
+    padding-top: 30px;
+}
+
 h4{
     color: grey;
 }
@@ -26,7 +31,7 @@ h5{
     background-image: url(../img/graph.jpg);
 }
 
-.bgsize-fontcolor{
+.bgsize{
     background-size: 15%;
     background-repeat: no-repeat;
     height: 100px;
