@@ -9,3 +9,26 @@ header{
     background-image: url(../img/pattern.png);
     background-size: contain;
 }
+
+h4{
+    color: grey;
+}
+
+h5{
+    color: white;
+}
+
+#img1{
+    background-image: url(../img/monitor.jpg);
+}
+
+#img2{
+    background-image: url(../img/graph.jpg);
+}
+
+.bgsize-fontcolor{
+    background-size: 15%;
+    background-repeat: no-repeat;
+    height: 100px;
+}
+
