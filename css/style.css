@@ -10,9 +10,25 @@ header{
     background-size: contain;
 }
 
+.writer-link{
+    color: rgb(10, 159, 159);
+}
+
 .header-logo{
     width: 20%;
     padding-top: 30px;
+}
+
+.fixed-width{
+    width: 180px;
+}
+
+.font-size{
+    font-size:small;
+}
+
+h1{
+    font-size: 40px;
 }
 
 h4{
