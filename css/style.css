@@ -52,6 +52,7 @@ h4{
 
 h5{
     color: white;
+    margin-bottom: 10px;
 }
 
 #img1{
@@ -66,5 +67,36 @@ h5{
     background-size: 15%;
     background-repeat: no-repeat;
     height: 100px;
+    padding-left: 10px;
 }
 
+table{
+    border-collapse: collapse;
+    text-align: left;
+    border: 2px solid black;
+}
+
+th{
+    background-color: rgb(245, 148, 92);
+    color: white;
+}
+
+.row-2{
+    background-color:red ;
+}
+
+.row-4{
+    background-color:red ;
+}
+
+#bg-color{
+    background-color: purple;
+}
+
+#top-margin{
+    margin-top: 20px;
+}
+
+.wider{
+    width: 30%;
+}
